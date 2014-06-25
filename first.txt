@@ -1,11 +1,6 @@
 hi
-<<<<<<< HEAD
-io 
-my
-nishant
-=======
+
 i you
 r 
 sharma nishant
 
->>>>>>> origin/master
