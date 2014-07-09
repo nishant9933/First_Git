@@ -1,0 +1,2725 @@
+﻿body {
+    font-family: "Open Sans", 'Helvetica','Arial', sans-serif;
+}
+
+
+@font-face {
+    font-family: HelveticaNeue-thin;
+    src: url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
+}
+
+
+.upper-half-background, .rhomobile-home, .header {
+    background: url('../images/shadow-edge.png') no-repeat center bottom, url('../images/background-blue-pattern.jpg') repeat;
+    background-size: 2297px 1px, 56px 64px;
+}
+
+
+.rho-mobiles img {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+
+.mobile-platform {
+    background: url("../images/rho-studio-bg.jpg");
+}
+
+.signup-free {
+    background: url("../images/blue-bg.jpg");
+    height: 264px;
+}
+
+.deploy-apps {
+    background: url("../images/violet-bg.jpg");
+    height: 650px;
+}
+
+
+.pattern-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.banner h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    color: #cccccc;
+    line-height: 37.5px;
+    margin-bottom: 40px;
+    min-height: 222px;
+    display: inline-block;
+}
+
+.banner h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0 none;
+}
+
+    .navbar-transparent navbar-nav > li > a {
+        font-family: OpenSans;
+        color: #ffffff;
+        font-size: 16px; /* Approximation due to font substitution */
+        font-weight: 400;
+        line-height: 3;
+    }
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.hosted-btn {
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+    .hosted-btn:hover {
+        background-color: gray;
+    }
+
+.rho-button {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.733;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-width: 1px;
+    font-family: 'open sans', 'Helvetica','Arial', sans-serif;
+}
+
+.cross-btn {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.733;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-width: 1px;
+}
+
+    .cross-btn:hover {
+        background-color: #ffffff;
+    }
+
+.home-screen-download-button {
+    color: #0c3d4f;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+    .home-screen-download-button:hover {
+        border-color: #ffffff;
+        background: gray;
+        color: #ffffff;
+    }
+
+.feature-more-button {
+    border-color: gray;
+    color: gray;
+}
+
+    .feature-more-button:hover {
+        background-color: gray;
+        color: #ffffff;
+    }
+
+#slogan, #homescreen {
+    color: #ffffff;
+}
+
+.logo {
+    height: 63px;
+}
+
+#homescreen h1 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    color: #ffffff;
+    font-size: 80px; /* Approximation due to font substitution */
+    font-weight: 100;
+    line-height: 1.333; /* Approximation due to font substitution */
+}
+
+#homescreen h3 {
+    font-size: 40px;
+}
+
+
+#topnavbar .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+#main-navbar {
+    height: 64px;
+}
+
+#index-navbar{
+    height: 64px;
+}
+
+
+/*margin helper css*/
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+
+.margin-bottom-200 {
+    margin-bottom: 200px;
+}
+
+.margin-bottom-43 {
+    margin-bottom: 43px;
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+
+.margin-40 {
+    margin: 40px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.left-padding {
+    padding-left: 0;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.custom-submenu {
+    display: none;
+    background: #000;
+}
+
+
+.home-arrow {
+    display: none;
+}
+
+.about-toggle h1 {
+    color: #e5e5e5;
+    font-size: 25px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 23px;
+    white-space: nowrap;
+}
+
+.about-toggle p {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 400;
+}
+
+.about-toggle a:hover, .about-toggle a:hover {
+    text-decoration: none;
+}
+
+.fa-caret-up:before {
+    content: url("../images/caret.png");
+}
+
+.view-btn {
+    margin: 20px 0 45px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.gallery-submenuitem, .connect-submenuitem, .studio-submenuitem, .element-submenuitem {
+    color: #ffffff;
+    text-align: center;
+}
+
+.gallery-submenuitem, .connect-submenuitem, .studio-submenuitem, .element-submenuitem {
+    color: #ffffff;
+    text-align: center;
+}
+
+.custom-submenu small {
+    color: #999999;
+}
+
+.gallery-submenuitem .galleryspan, .connectspan, .studiospan, .elementspan {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/*Height adjusted because of Testimonial section*/
+.our-customers {
+    height: 907px;
+    background-color: #ffffff;
+}
+
+.fixed-image {
+    position: absolute;
+}
+
+.submenu-item {
+    text-align: left;
+    white-space: nowrap;
+}
+
+    .submenu-item div {
+        display: inline-block;
+        padding: 2px;
+    }
+
+    .submenu-item h3 {
+        margin: 0px;
+    }
+
+.image-first {
+    position: relative;
+    left: 0;
+    top: 0px;
+    z-index: 0;
+}
+
+.slide-section {
+    height: 80px;
+    width: 190px;
+    margin-left: 193px;
+}
+
+.link-redirect {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+    .link-redirect:hover {
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+    }
+
+
+.rho-mobiles {
+    margin-top: -41px;
+}
+
+.built-row {
+    margin-bottom: 64px;
+}
+
+.signup-btn {
+    border-radius: 5px;
+    border: 1px solid #37802b;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.733;
+    padding: 8px;
+    background: #429934;
+    color: #fff;
+    width: 165px;
+    margin-right: 9px;
+}
+
+ /*Border Removed because of hover issue*/
+    .signup-btn:hover {
+        background-color: #52BE41;
+        color: #ffffff;
+        border: 1px solid #37802b;
+    }
+     /*Border Removed because of hover issue*/
+    .signup-btn:focus {
+        background-color: #52BE41;
+        color: #ffffff;
+        border: 1px solid #37802b;
+        outline: none;
+    }
+
+.download-btn {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    border: none;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.733;
+    padding: 8px;
+    background: #fff;
+    color: #0c3d4f;
+    width: 165px;
+    margin-left: 8px;
+}
+
+    .download-btn:hover {
+        background-color: #808080;
+        color: #fff;
+        outline: none;
+    }
+
+    .download-btn:focus {
+        background-color: #808080;
+        color: #ffffff;
+        outline: none;
+    }
+
+.signup-rho {
+    background-color: #429934;
+    width: 160px;
+    height: 44px;
+    border: none;
+    padding-left: 34px;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
+
+    .signup-rho:hover {
+        background-color: #52BE41;
+        color: #ffffff;
+    }
+
+.margin-minus {
+    margin: -9px;
+}
+
+.violet-top {
+    margin-top: -49px;
+}
+
+.violet-ride {
+    color: #ffffff;
+    border-color: #ffffff;
+    margin-top: 75px;
+}
+
+    .violet-ride:hover {
+        background-color: #ffffff;
+        color: black;
+    }
+
+.apps-text {
+    font-size: 48px;
+    font-weight: 100;
+    color: #808080;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+}
+
+.cloud-management {
+    height: 390px;
+    background-color: #ffffff;
+}
+
+.manage-apps {
+    font-size: 48px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.cross-platform {
+    font-size: 48px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 100;
+}
+
+.green-inner {
+    font-size: 24px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 100;
+}
+
+.blue-inner {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    color: #808080;
+    margin-left: -99px;
+}
+
+.btn-more {
+    margin-left: -390px;
+}
+
+.contact-border {
+    border-left: 1px solid #6a6a6a;
+    height: 141px;
+}
+
+.free-style {
+    font-size: 36px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact-icon {
+    margin-bottom: -4px;
+}
+
+
+.arrow-image {
+    color: black;
+    position: absolute;
+    bottom: -13px;
+    left: 36%;
+    font-size: 1.6em;
+}
+
+
+.home-big {
+    font-weight: 500;
+}
+
+.header-font {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.green-pad {
+    margin-bottom: 45px;
+}
+
+.grayspan {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 29px;
+    color: #ccc;
+    font-weight: 400;
+}
+
+.rubyn {
+    margin-bottom: 16px;
+}
+
+.new-technologies {
+    font-size: 32px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 100;
+    color: #808080;
+}
+
+
+.company-test {
+    font-size: 22px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.margin-company {
+    margin-top: -8px;
+}
+
+.relative-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.signup-free h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.rhomobile-footer .list-group-item {
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 2px;
+}
+
+    .rhomobile-footer .list-group-item a span {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .rhomobile-footer .list-group-item a {
+        color: gray;
+        text-decoration: none;
+    }
+
+.glyphicon-email-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 21px;
+}
+
+.paper-icon {
+    color: #9d9d9d;
+    font-size: 15px;
+    margin-right: 16px;
+}
+
+.shadow-rmve {
+    text-shadow: none;
+}
+
+.carousel-caption {
+    color: #808080;
+}
+
+    .carousel-caption h4 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+
+
+.carousel {
+    padding: 0 150px;
+}
+
+
+
+.carousel-image {
+    width: 20%;
+}
+
+    .carousel-image img {
+        height: 65px;
+        width: 84px;
+    }
+
+.carousel-content {
+    width: 80%;
+}
+
+.inline-bar {
+    display: inline;
+}
+
+.table-bar {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.phone-icon {
+    display: inline;
+    float: left;
+    width: 20px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+/*Product*/
+.nav-dropdown {
+    max-height: 460px;
+    overflow: hidden;
+}
+
+
+.color-header {
+    background: url("../images/nav-background.jpg");
+}
+
+.color-header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+#product {
+    padding: 80px 0;
+}
+
+.banner-btn {
+    border-radius: 5px;
+    border: 1px solid #37802b;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.733;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #429934;
+    color: #fff;
+    width: 165px;
+}
+
+    .banner-btn:hover, .banner-btn:focus {
+        border-radius: 5px;
+        border: 1px solid #37802b;
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.733;
+        padding-left: 40px;
+        padding-right: 40px;
+        background: #429934;
+        color: #fff;
+    }
+
+.gray {
+    background: #fafafa;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 60px 0;
+}
+
+#signin-pricing {
+    background: #ffffff;
+    padding-bottom: 142px;
+}
+
+.white {
+    padding: 60px 0;
+}
+
+.gray-head h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    color: #bfbfbf;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+    .gray-head h3 span {
+        font-weight: 400;
+    }
+
+.gray-text {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.gray-contents p {
+    color: #4c4c4c;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+.white-head h3 {
+    color: #bfbfbf;
+    font-size: 48px;
+    font-family: 'Open Sans', ‘Helvetica’,‘Arial’, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.white-contents p {
+    color: #4c4c4c;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+.rhomobile-categories h4 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #4c4c4c;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.product-bg {
+    height: 264px;
+}
+
+.product-bg {
+    background: url("../images/blue-bg.jpg");
+}
+
+.product-bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-pattern-head h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+}
+
+.rhomobile-categories p {
+    text-align: left;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+}
+
+.footer-heading {
+    color: #cccccc;
+}
+
+
+.list-group {
+    line-height: 20px;
+}
+
+
+.rhomobile-footer {
+    background-color: #322f31;
+}
+
+    .rhomobile-footer .list-group-item span {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .rhomobile-footer .list-group-item a {
+        color: #999999;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+        .rhomobile-footer .list-group-item a:hover {
+            text-decoration: underline;
+        }
+
+.margin-top-150 {
+    margin-top: 167px;
+}
+
+.link-redirect:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-nav > li > a {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.product-sub-nav:focus {
+    background: #1a1a1a;
+}
+
+.product-sub-nav:hover {
+    background: #1a1a1a;
+}
+
+.navbar-nav a {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+}
+
+#homescreen h5 {
+    display: inline-block;
+    margin: 0px;
+}
+
+.element-api h1 {
+    display: inline-block;
+}
+
+.element-api img {
+    height: 226px;
+}
+
+.chevron-left {
+    margin-top: -65px;
+    margin-left: 49px;
+    background-color: #ffffff;
+}
+
+.chevron-right {
+    margin-top: -65px;
+    margin-left: 49px;
+    background-color: #ffffff;
+}
+
+/*Testimonial Fix*/
+
+.carousel-text {
+    font-size: 18px;
+    line-height: 26px;
+    width: 516px;
+    height: 156px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-left {
+    margin-left: 100px;
+}
+
+/*Pricing*/
+.pricing-banner {
+    height: 825px;
+}
+
+.pricing-content h2 {
+    color: #FFFFFF;
+    font-family: 'open sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 62px;
+}
+
+.pricing-content h4 {
+    color: #FFFFFF;
+    font-family: 'open sans', 'Helvetica','Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    margin-top: 8px;
+}
+
+.pricing-table1 h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    color: #4d4d4d;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 0;
+    text-align: left;
+}
+
+.first-table {
+    border: 4px solid #f0eded;
+    border-right: 0px;
+}
+
+.second-table {
+    border: 4px solid #f0eded;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.last-table {
+    border: 4px solid #f0eded;
+    border-left: 0px;
+}
+
+.first-list ul {
+    padding: 0 5px;
+}
+
+.first-list li {
+    color: #888888;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-top: 1px solid #ededed;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.content-list li {
+    text-align: left;
+}
+
+.inside-list li {
+    min-height: 43.8px;
+}
+
+.gray-circle {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: url('../images/gray-circle.png') no-repeat top center;
+    text-indent: -9999px;
+    border: 0;
+    margin: 6px auto 0;
+}
+
+.red-circle {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: url('../images/red-circle.png') no-repeat top center;
+    text-indent: -9999px;
+    border: 0;
+    margin: 6px auto 0;
+}
+
+.silver-plan {
+    border: 2px solid #f44e4b;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+.popular {
+    position: absolute;
+    right: -14px;
+    top: -14px;
+    width: 71px;
+}
+
+.pricing-main-table h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+
+.silver {
+    color: #FD5653;
+}
+
+.silver-list li {
+    color: #f44e4b;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pricing-main-table h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: #4d4d4d;
+    margin-top: 0px;
+}
+
+
+.pricing-tables-jumbotron {
+    text-align: center;
+    background: none;
+}
+
+    .pricing-tables-jumbotron > h1,
+    .pricing-tables-jumbotron > h2 {
+        font-family: 'Exo 2', sans-serif;
+    }
+
+.plan {
+    background: #ffffff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    margin: 20px 0;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    text-align: center;
+    color: #888888;
+}
+
+    .plan:hover .hided-icon {
+        color: #fff;
+        padding: 0 10px;
+    }
+
+    .plan > .plan-title {
+        padding: 18px 20px 0px;
+        min-height: 165px;
+    }
+
+        .plan > .plan-title > span {
+            font-size: 20px;
+            font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+            font-weight: 400;
+            color: #9d9d9d;
+        }
+
+.silver-table span {
+    font-size: 21px;
+}
+
+.trail {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    color: #9d9d9d;
+    font-weight: 400;
+}
+
+.plan > .plan-price {
+    background: #fff;
+    padding: 0 0 10px;
+    color: #cf3735;
+}
+
+    .plan > .plan-price > .price {
+        display: block;
+        font-size: 72px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .plan > .plan-price > .period {
+        font-size: 14px;
+    }
+
+.plan .plan-list {
+    padding: 0;
+}
+
+.plan .item-list {
+    list-style: none;
+}
+
+    .plan .item-list li:nth-child(even) {
+        background: #fdfdfd;
+    }
+
+    .plan .item-list > li {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+.pricing-btn {
+    margin-bottom: 26px;
+    margin-top: 15px;
+}
+
+.attached > .col-md-4:first-child .plan,
+.attached > .col-md-3:first-child .plan {
+    border-radius: 5px 0 0 5px;
+}
+
+.attached > .col-md-4:last-child .plan,
+.attached > .col-md-3:last-child .plan {
+    border-radius: 0 5px 5px 0;
+}
+
+.attached > .col-md-4,
+.attached > .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.attached .plan {
+    margin-top: 8px;
+    border-radius: 0;
+    z-index: 2;
+}
+
+.attached .most-popular {
+    border: 8px solid #F0EDED;
+    border-radius: 3px;
+    margin-top: 0;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0;
+}
+
+    .attached .most-popular > .plan-title {
+        padding: 17px 20px 13px;
+    }
+
+.hide-btn {
+    visibility: hidden;
+}
+
+button.btn.create-account:hover {
+    color: #ffffff;
+}
+
+.github-btn h1 {
+    text-align: right;
+}
+
+.github-btn img {
+    width: 250px;
+}
+
+.google-btn h1 {
+    text-align: left;
+}
+
+.google-btn img {
+    width: 250px;
+}
+
+.github-btn a:hover, .github-btn a:focus {
+    outline: none;
+}
+
+.google-btn a:hover, .google-btn a:focus {
+    outline: none;
+}
+
+.create-account:hover {
+    color: #fff;
+}
+
+.create-account:focus {
+    color: #fff;
+}
+
+.active_menu span {
+    font-weight: 600;
+}
+
+
+.divider-btm h1 {
+    background: url('../images/divider.png') center repeat-x;
+    color: #222;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+    .divider-btm h1 span {
+        background: #fff;
+        display: inline-block;
+        padding: 0 50px;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        color: #808080;
+        position: relative;
+        top: -4px;
+    }
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+/*Download*/
+
+
+.download-banner h1 {
+    color: #FFFFFF;
+    font-family: 'open sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 62px;
+}
+
+.download-banner h4 {
+    color: #FFFFFF;
+    font-family: 'open sans', 'Helvetica','Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 43px;
+}
+
+.download-content {
+    width: 223px;
+}
+
+.download-types {
+    background: #fff;
+    border-radius: 4px;
+    border: 4px solid #f0eded;
+}
+
+.download-types h1 {
+    display: inline-block;
+    margin: 30px 0 15px;
+}
+
+.download-types h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.download-types h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #4d4d4d;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 31px;
+}
+
+.downloads p {
+    text-align: left;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 18px 0 0 14px;
+    color: #888888;
+}
+
+.downloads a:hover, .downloads a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+#footer {
+    padding-bottom: 45px;
+}
+
+#support h1 {
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 103px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+#support h2 {
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#support h3 {
+    font-size: 14px;
+    color: #888888;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 96px;
+}
+
+.margin-bottom-90 {
+    margin-bottom: 90px;
+}
+
+.download-type {
+    float: right;
+}
+/*Studio*/
+
+.main-header {
+    height: 644px;
+    background: url('../images/highlight-edge.png') no-repeat center top, rgb(10,62,82) url('../images/background-blue-pattern.jpg') repeat;
+    background-size: 2297px 1px, 56px 64px;
+}
+
+.main-header-index {
+    background: url('../images/highlight-edge.png') no-repeat center top, rgb(10,62,82) url('../images/background-blue-pattern.jpg') repeat;
+    background-size: 2297px 1px, 56px 64px;
+}
+
+.rhoelements .main-header {
+    background: url('../images/highlight-edge.png') no-repeat center top, url('../images/rhoelements-jumbotron.jpg') center;
+    background-size: 2297px 1px, cover;
+}
+
+.rhostudio .main-header {
+    background: url('../images/highlight-edge.png') no-repeat center top, url('../images/rhostudio-jumbotron.jpg') center;
+    background-size: 2297px 1px, cover;
+}
+
+.rhoconnect .main-header {
+    background: url('../images/highlight-edge.png') no-repeat center top, url('../images/rhoconnect-jumbotron.jpg') center;
+    background-size: 2297px 1px, cover;
+}
+
+.rhogallery .main-header {
+    background: url('../images/highlight-edge.png') no-repeat center top, url('../images/rhogallery-jumbotron.jpg') center;
+    background-size: 2297px 1px, cover;
+}
+
+
+.partners .main-header {
+    background: url('../images/highlight-edge.png') no-repeat center top, url('../images/partners-jumbotron.jpg') center;
+    background-size: 2297px 1px, cover;
+}
+
+.download .main-header {
+    height: 350px;
+}
+
+
+.contact .main-header {
+    height: 219px;
+}
+
+
+.gray-head-studio h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    color: #bfbfbf;
+    font-weight: 300;
+}
+
+.gray-head-studio h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    color: #bfbfbf;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.studio-contents p {
+    color: #4d4d4d;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.focus-contents p {
+    color: #4d4d4d;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+.phot-banner h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    color: #bfbfbf;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.phot-banner h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    color: #bfbfbf;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 4px;
+}
+
+.rhomobile-categories h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 16px;
+    color: #5d5d5d;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin-top: -12px;
+}
+
+.android-image {
+    height: 265px;
+    float: right;
+}
+
+.phot-image {
+    height: 265px;
+}
+
+.easier-integration {
+    height: 355px;
+    float: right;
+}
+
+.worker-image {
+    height: 220px;
+}
+
+/*Gallery*/
+.gray head-studio {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    color: #bfbfbf;
+    font-weight: 300;
+}
+
+.gray-head-studio h3 {
+    margin-bottom: 40px;
+}
+
+    .gray-head-studio h3 span {
+        font-weight: 400;
+    }
+
+.flight-image {
+    height: 265px;
+}
+
+.customer-content p {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+    text-align: left;
+}
+
+.reviews-ratings h1 {
+    display: inline-block;
+    margin-top: -25px;
+}
+
+.reviews-ratings img {
+    height: 160px;
+    width: 670px;
+}
+
+.ratings-text h1 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+}
+
+.margin-negative-25 {
+    margin-top: -25px;
+}
+
+.margin-negative-20 {
+    margin-top: -20px;
+}
+
+.pricng-style {
+    font-weight: 600;
+}
+
+.editor-product h1 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+.editor-product h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #5d5d5d;
+    font-weight: 300;
+    text-align: center;
+}
+
+.editor-text h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #5d5d5d;
+    font-weight: 300;
+    text-align: center;
+}
+
+.editor-text div {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #5d5d5d;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 55px;
+}
+
+.editor-window {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    color: #5d5d5d;
+    font-weight: 300;
+    text-align: center;
+}
+
+.editor-text h1 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+.editorblue {
+    margin-left: -20px;
+}
+
+.editorblue1 {
+    margin-left: 10px;
+}
+
+
+/* RhoConnect Page */
+.connect-btn {
+    margin: 10px 0;
+}
+
+
+/*Partner*/
+.rho-partner {
+    background: url("../images/partners-jumbotron.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#rho-partner-banner {
+    margin-top: 43px;
+}
+
+    #rho-partner-banner h1 {
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 48px;
+        font-weight: 300;
+        color: #fff;
+        margin-bottom: 28px;
+    }
+
+    #rho-partner-banner p {
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        color: #ccc;
+    }
+
+.banner-margin {
+    margin-bottom: 78px;
+}
+
+.banner-mail a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.partner-sign {
+    width: 233px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.partner-page-link {
+    margin-top: 29px;
+}
+
+    .partner-page-link span {
+        color: #ccc;
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 17.5px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+        .partner-page-link span a {
+            color: #ccc;
+            text-decoration: underline;
+        }
+
+        .partner-page-link span > span {
+            font-weight: 600;
+        }
+
+.partner-image {
+    height: 50px;
+}
+
+.partner-details {
+    margin-bottom: 55px;
+}
+
+.partner-tata {
+    height: 60px;
+}
+
+.partner-details span {
+    float: left;
+    margin-right: 14px;
+}
+
+.partner-details h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 25px;
+    color: #bfbfbf;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.partner-details p {
+    margin: 10px 0 0 5px;
+    color: #4c4c4c;
+    font-size: 12px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.alagin p {
+    text-align: left;
+}
+/*Partner Overview*/
+
+.overview-btn {
+    margin-top: 88px;
+    margin-bottom: 78px;
+}
+
+.overview-list ul {
+    padding-left: 20px;
+}
+
+    .overview-list ul li {
+        font-size: 20px;
+        color: #4c4c4c;
+    }
+
+.rhosuite-overview {
+    padding: 0 30px 30px;
+}
+
+    .rhosuite-overview img {
+        height: 211px;
+    }
+
+.overview-list a {
+    color: #4c4c4c;
+    text-decoration: underline;
+}
+
+.partner-signup {
+    border: 1px solid #e5e5e5;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    color: #b2b2b2;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 20px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+    .partner-signup:focus {
+        border: 1px solid #e5e5e5;
+        border-left: transparent;
+        border-top: transparent;
+        border-right: transparent;
+        outline: none;
+    }
+
+        .partner-signup:focus::-webkit-input-placeholder {
+            color: transparent;
+        }
+
+        .partner-signup:focus::-moz-placeholder {
+            color: transparent;
+        }
+
+    .partner-signup:-moz-placeholder {
+        color: transparent;
+    }
+
+.become-partner {
+    margin: 24px 0 79px;
+}
+
+.partner-btn {
+    background-color: #429934;
+    color: #FFFFFF;
+    border: 1px solid #37802b;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    padding: 11px 11px;
+    margin-top: 15px;
+}
+
+    .partner-btn:hover, .partner-btn:hover {
+        color: #fff;
+    }
+
+    .partner-btn:focus {
+        color: #fff;
+        outline: none;
+    }
+
+#partner-signup {
+    padding: 60px 0;
+}
+
+.ios-objective {
+    height: 221px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-negative-top-30 {
+    margin-top: -30px;
+}
+
+.email-id {
+    height: 15px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.contact-phone {
+    color: #999999;
+}
+
+/* RhoFaq */
+.faq-header h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.faq-header h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.question-open h2 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4d4d4d;
+    line-height: 30px;
+    text-align: left;
+}
+
+.margin-negative-60 {
+    margin-top: -50px;
+}
+
+.question-open h3 {
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 30px;
+    text-align: left;
+}
+
+.question-open1 {
+    margin-top: -15px;
+}
+
+
+.question-only-section {
+    background: #fafafa;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 17px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.question-section {
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.content-usage h2 {
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+/*Contact*/
+#contact {
+    margin: 63px 0 60px 0;
+}
+
+    #contact h1 {
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 48px;
+        font-weight: 300;
+        color: #fff;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
+    #contact h2 {
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+#contact-warp {
+    margin: 35px 0 26px;
+}
+
+    #contact-warp .fa {
+        margin-right: 6px;
+    }
+
+
+.rhomobile-contact {
+    border-left: 1px solid #e6e6e6;
+    height: 127.5px;
+}
+
+    .rhomobile-contact:first-child {
+        border-left-color: transparent;
+    }
+
+    .rhomobile-contact h3 {
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #4c4c4c;
+        margin-top: 10px;
+        margin-bottom: 17px;
+    }
+
+    .rhomobile-contact a {
+        font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        color: #4c4c4c;
+    }
+
+        .rhomobile-contact a:hover, .rhomobile-contact a:hover {
+            text-decoration: underline;
+        }
+
+.icon-contact {
+    margin-right: 4px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.element-link {
+    color: #4c4c4c;
+    text-decoration: underline;
+}
+
+.link-element a:hover {
+    color: #4c4c4c;
+    text-decoration: underline;
+}
+
+.navbar-align {
+    text-align: center;
+}
+
+/*Black sub Menu*/
+
+.about-content {
+    display: none;
+}
+
+.product-content {
+    display: none;
+}
+
+.product-sub-nav a:hover {
+    text-decoration: none;
+}
+
+.element-submenuitem h1 {
+    color: #ffffff;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.element-submenuitem p {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    font-weight: 400;
+}
+
+/*Mobile Navigation*/
+
+#mobile-navigation {
+    display: none;
+}
+
+.cloud-align {
+    float: none;
+}
+
+/*Fixing Height For cloud*/
+
+.cloud-image {
+    width: 263px;
+    height: 167px;
+}
+
+/*Footer Section*/
+
+/*Footer section changes*/
+
+.footer-sec h1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #cccccc;
+    line-height: 15px;
+    float: left;
+    margin-left: 17px;
+}
+
+.footer-sec img {
+    width: 12px;
+    vertical-align: -2px;
+}
+
+
+
+
+
+/* This works only in Safari and Google Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .last-list {
+        margin-top: -10px; /* This works only in Safari and Google Chrome */
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    #mobile-navigation {
+        display: block;
+        float: right;
+    }
+
+    .navbar-nav > li {
+        float: none !important;
+    }
+
+    .navbar-align {
+        text-align: inherit !important;
+    }
+
+    .navbar-left {
+        float: inherit !important;
+    }
+
+    span.fa.fa-caret-up.fa-2x.about-toggle.arrow-image.home-arrow.hidden-xs {
+        display: none !important;
+    }
+
+    span.fa.fa-caret-up.fa-2x.community-toggle.arrow-image.home-arrow.hidden-xs {
+        display: none !important;
+    }
+
+    span.fa.fa-caret-up.fa-2x.resource-toggle.arrow-image.home-arrow.hidden-xs {
+        display: none !important;
+    }
+
+
+
+    .navbar-right {
+        float: inherit !important;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+        .navbar-collapse.collapse.in {
+            display: block !important;
+        }
+
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hidden-custom {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 992px) {
+    .hidden-class {
+        display: none !important;
+    }
+
+    .arrow-product {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .attached > .col-md-4,
+    .attached > .col-md-3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+        .attached > .col-md-4:first-child .plan,
+        .attached > .col-md-3:first-child .plan {
+            border-radius: 5px 0 0 5px;
+        }
+
+        .attached > .col-md-4:last-child .plan,
+        .attached > .col-md-3:last-child .plan {
+            border-radius: 0 5px 5px 0;
+        }
+
+    .navbar-align {
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .pricing-banner {
+        height: auto;
+    }
+
+    #topnavbar .dropdown-menu {
+        position: relative;
+    }
+
+    #main-navbar {
+        height: auto;
+    }
+
+    #index-navbar{
+        height: auto;
+    }
+
+    #rhomobile-footer {
+        height: 765px;
+    }
+
+    .contact-border {
+        border-left: 1px solid;
+        border-left-color: transparent;
+    }
+
+    .attached > .col-md-4,
+    .attached > .col-md-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+        .attached > .col-md-4:first-child .plan,
+        .attached > .col-md-3:first-child .plan {
+            border-radius: 5px;
+        }
+
+        .attached > .col-md-4:last-child .plan,
+        .attached > .col-md-3:last-child .plan {
+            border-radius: 5px;
+        }
+
+    .github-btn h1 {
+        text-align: center;
+    }
+
+    .github-btn a:hover, .github-btn a:focus {
+        outline: none;
+    }
+
+    .google-btn h1 {
+        text-align: center;
+    }
+
+    .google-btn a:hover, .google-btn a:focus {
+        outline: none;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+
+    .download-content {
+        width: 255px;
+        margin: 0 auto 20px;
+    }
+
+    .downloads p {
+        color: #fff;
+    }
+
+    .download-type {
+        float: none;
+    }
+
+    /*This is for Rhodownload page header section without this it will get fixed height*/
+
+    .download .main-header {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .header {
+        height: auto;
+    }
+
+    #main-navbar {
+        height: auto;
+    }
+
+    #index-navbar{
+        height: auto;
+    }
+
+    .element-submenuitem h1 {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .product-img {
+        top: 11px;
+    }
+
+    .downloads {
+        margin-left: 115px;
+    }
+
+    .download-type {
+        float: none;
+    }
+
+    .download-content {
+        width: auto;
+    }
+
+
+    body {
+        font-size: inherit;
+    }
+
+    .rhodownload {
+        width: 240px;
+    }
+
+    .last-section {
+        margin-top: 20px;
+    }
+
+    .contact-media {
+        width: 250px;
+    }
+
+    .contact-support {
+        width: 220px;
+    }
+
+    .arrow-image {
+        bottom: -11px;
+    }
+
+    .home-img {
+        top: 8px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    .blue-cloud2 {
+        width: 100px;
+        display: inline-block;
+    }
+
+    .btn-more {
+        margin-bottom: 60px;
+    }
+
+    .cloud-management {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .cloud-management {
+        height: auto;
+    }
+
+    #rhomobile-footer {
+        height: 765px;
+    }
+
+    .contact-border {
+        border-left: 1px solid;
+        border-left-color: transparent;
+    }
+
+    .deploy-apps {
+        height: auto;
+    }
+
+    .signup-free {
+        height: auto;
+    }
+
+    .deploy-apps {
+        height: auto;
+    }
+
+    /* For Mobile view(For Textbox)*/
+    .pricing-input {
+        width: 250px;
+    }
+
+    .create-account {
+        width: auto;
+    }
+
+    .divider-rd {
+        margin-bottom: 40px;
+    }
+
+
+    .btn-github {
+        margin-bottom: 10px;
+    }
+
+    /*For Mobile Responsive*/
+    .download-btn {
+        margin-left: -7px;
+    }
+
+    .apps-text {
+        font-size: 42px;
+    }
+
+    .cross-platform {
+        font-size: 42px;
+    }
+
+    #homescreen h5 {
+        width: 250px;
+    }
+
+    .manage-apps {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+    .our-customers {
+        height: auto;
+    }
+
+    .cloud-management {
+        height: auto;
+    }
+
+    .editor-product h1 {
+        height: 250px;
+        width: 250px;
+    }
+
+    .editor-text h1 {
+        height: 250px;
+        width: 250px;
+    }
+    /*Carousel Changes*/
+
+    .carousel-text {
+        font-size: 14px;
+        line-height: 26px;
+        width: 100%;
+        height: 156px;
+    }
+    /*Carousel Changes*/
+    .carousel-align {
+        margin-top: 16.75em;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .carousel-text {
+        font-size: 14px;
+        line-height: 26px;
+        width: 100%;
+        height: 383px;
+    }
+
+       .carousel-image img {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+
+    .carousel {
+        padding: 0;
+    }
+
+
+    .slide-section {
+        margin-left: 0px;
+    }
+
+
+    .btn-more {
+        margin-left: 0px;
+    }
+    /* For Mobile view(It's a slider) */
+    .carousel-inner {
+        margin-left: 40px;
+        width: 85%;
+    }
+
+    .carousel-control.left {
+        margin-left: 5px;
+        width: 0;
+        height: 90%;
+    }
+
+    .carousel-control.right {
+        margin-right: 5px;
+        width: 0;
+        height: 90%;
+    }
+
+    .carousel-image img {
+        margin-left: 22px;
+    }
+
+    .glyphicon-chevron-left, .glyphicon-chevron-right {
+        width: 30px;
+    }
+
+    .phot-image {
+        height: auto;
+    }
+
+    .android-image {
+        height: auto;
+        float: none;
+    }
+
+    .flight-image {
+        height: auto;
+    }
+
+    .easier-integration {
+        height: auto;
+        float: none;
+    }
+
+    .worker-image {
+        height: auto;
+    }
+
+    .reviews-ratings img {
+        height: auto;
+        width: auto;
+    }
+
+    .element-api img {
+        height: auto;
+    }
+
+    .editor-product img {
+        width: auto;
+        height: auto;
+    }
+
+    .editorblue {
+        margin-left: 0px;
+    }
+
+    .editorblue1 {
+        margin-left: 0px;
+    }
+
+    .ios-objective {
+        height: auto;
+    }
+
+    .blue-inner {
+        margin-left: 0px;
+    }
+
+    .btn-more {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .pricing-input {
+        width: 459px;
+    }
+
+    .create-account {
+        width: 317px;
+    }
+
+    .carousel-inner {
+    }
+
+    .carousel-control.right, .carousel-control.left {
+        background: none;
+        z-index: 4000000;
+        opacity: 99;
+    }
+
+    .resource-cls {
+        display: block !important;
+    }
+
+    .cloud-align {
+        float: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.margin-top-220 {
+    margin-top: 220px;
+}
+
+.pricing-create, .pricing-create a, .pricing-create a:hover {
+    font-size: 48px;
+    font-weight: 300;
+    color: #000000;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    text-decoration: none;
+}
+
+
+.pricing-account {
+    font-size: 23px;
+    font-weight: 300;
+    color: #888888;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    margin-top: 24px;
+}
+
+.github-google {
+    height: 61px;
+    width: 250px;
+}
+
+.pricing-input {
+    height: 52px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #808080;
+    font-weight: 400;
+    text-indent: 13px;
+    font-family: 'Open Sans', 'Helvetica','Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.email-input {
+    margin-top: 40px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.create-account {
+    height: 60px;
+    font-size: 26px;
+    color: #ffffff;
+    background-color: #19aae2;
+}
+
+.margin-bottom-150 {
+    margin-bottom: 150px;
+}
+
+
+.adjust-divider {
+    display: block;
+    position: absolute;
+    left: 44%;
+    top: -0.6em;
+    margin-left: -1.5em;
+    background-color: #ffffff;
+    width: 6em;
+    text-align: center;
+    font-size: 24px;
+    color: #888888;
+}
+
+.margin-top-187 {
+    margin-top: 187px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.btn-label {
+    position: relative;
+    left: -77px;
+    display: inline-block;
+    padding: 10px 19px;
+    border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.download-button-img{
+    width:90px;
+}
+
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+#footer {
+    height: auto;
+}
+
+.footer-logo {
+    height: 25px;
+    width: auto;
+    margin-left: 14px;
+}
+
+/*----------Main Menu Responsive--------*/
+.custom-submenu {
+    min-height: 160px;
+    max-height: 160px;
+}
+
+.r-menu {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.panel-body {
+    min-height: 160px;
+    max-height: 160px;
+}
+
+.element-submenuitem h1 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width : 992px) {
+    .img-responsive {
+        margin-top: .75em;
+    }
+}
+
+@media (max-width: 433px) {
+    .download-btn {
+        margin-top: 10px;
+    }
+}
+
+
+/*----------Fixing The responsive of pricing table---------*/
+@media (max-width: 768px) {
+    .no-responsive {
+        width: 25%;
+        float: left;
+    }
+
+    .attached > .no-responsive {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .no-responsive .plan .item-list > li {
+        font-size: 10px;
+    }
+
+    .no-responsive .plan > .plan-title > span {
+        font-size: 12px;
+    }
+
+    .no-responsive .banner-btn {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .no-responsive .pricing-table1 h3,
+    .no-responsive .pricing-main-table h3 .no-responsive .pricing-main-table h2 {
+        font-size: 21px;
+    }
+}
